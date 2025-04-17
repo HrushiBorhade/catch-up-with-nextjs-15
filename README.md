@@ -4,3 +4,4 @@
 
 - Layouts and templates ✅
 - Linking and Navigation ✅
+- Error Handling ✅

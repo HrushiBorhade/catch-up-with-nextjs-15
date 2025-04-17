@@ -54,6 +54,9 @@ export default function Home() {
         <div>
           <Link className="p-3 px-6 hover:underline bg-white text-black rounded-2xl" href="/blog">Blogs</Link>
         </div>
+        <div>
+          <Link className="p-3 px-6 hover:underline bg-white text-black rounded-2xl" href="/signup">Signup</Link>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
