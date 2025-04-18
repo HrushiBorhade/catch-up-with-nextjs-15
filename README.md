@@ -6,3 +6,4 @@
 - Linking and Navigation ✅
 - Error Handling ✅
 - Loading UI and streaming ✅
+- Redirecting ✅
