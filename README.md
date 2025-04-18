@@ -7,3 +7,4 @@
 - Error Handling ✅
 - Loading UI and streaming ✅
 - Redirecting ✅
+- Route Groups ✅
