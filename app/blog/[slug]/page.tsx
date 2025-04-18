@@ -1,3 +1,4 @@
+import { getPosts } from "@/lib/posts";
 import { redirect } from "next/navigation";
 
 export default async function Page({
@@ -9,4 +10,12 @@ export default async function Page({
   if (!slug) redirect("/blog");
 
   return <div>My Post: {slug}</div>;
+}
+
+export async function generateStaticParams() {
+  const posts = await getPosts();
+
+  return posts.map((post) => ({
+    slug: post.id.toString(),
+  }));
 }

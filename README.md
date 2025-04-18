@@ -8,3 +8,5 @@
 - Loading UI and streaming ✅
 - Redirecting ✅
 - Route Groups ✅
+- Dynamic Routes ✅
+- Parallel Routes ✅
